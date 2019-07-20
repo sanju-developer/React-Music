@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sanju-developer/React-Music/static/css/main.5f3a7ec0.chunk.css",
-    "main.js": "/sanju-developer/React-Music/static/js/main.5f4fec57.chunk.js",
-    "main.js.map": "/sanju-developer/React-Music/static/js/main.5f4fec57.chunk.js.map",
-    "runtime~main.js": "/sanju-developer/React-Music/static/js/runtime~main.b759ed1f.js",
-    "runtime~main.js.map": "/sanju-developer/React-Music/static/js/runtime~main.b759ed1f.js.map",
-    "static/js/2.31a5556b.chunk.js": "/sanju-developer/React-Music/static/js/2.31a5556b.chunk.js",
-    "static/js/2.31a5556b.chunk.js.map": "/sanju-developer/React-Music/static/js/2.31a5556b.chunk.js.map",
-    "index.html": "/sanju-developer/React-Music/index.html",
-    "precache-manifest.c8c69b5f4bc7f07cc669e3108ce8040a.js": "/sanju-developer/React-Music/precache-manifest.c8c69b5f4bc7f07cc669e3108ce8040a.js",
-    "service-worker.js": "/sanju-developer/React-Music/service-worker.js",
-    "static/css/main.5f3a7ec0.chunk.css.map": "/sanju-developer/React-Music/static/css/main.5f3a7ec0.chunk.css.map"
+    "main.css": "/React-Music/static/css/main.5f3a7ec0.chunk.css",
+    "main.js": "/React-Music/static/js/main.39b80d39.chunk.js",
+    "main.js.map": "/React-Music/static/js/main.39b80d39.chunk.js.map",
+    "runtime~main.js": "/React-Music/static/js/runtime~main.b7f4a3b6.js",
+    "runtime~main.js.map": "/React-Music/static/js/runtime~main.b7f4a3b6.js.map",
+    "static/js/2.31a5556b.chunk.js": "/React-Music/static/js/2.31a5556b.chunk.js",
+    "static/js/2.31a5556b.chunk.js.map": "/React-Music/static/js/2.31a5556b.chunk.js.map",
+    "index.html": "/React-Music/index.html",
+    "precache-manifest.37d29d8e399f2a5622e3ad4a9c942cc8.js": "/React-Music/precache-manifest.37d29d8e399f2a5622e3ad4a9c942cc8.js",
+    "service-worker.js": "/React-Music/service-worker.js",
+    "static/css/main.5f3a7ec0.chunk.css.map": "/React-Music/static/css/main.5f3a7ec0.chunk.css.map"
   }
 }
