@@ -1,0 +1,14 @@
+.search-input{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    margin: 0 10px;
+    outline: none;
+}
+.submit-btn{
+    color:#fff;
+    background: linear-gradient(45deg, #67e0e4, #65da9c);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+}

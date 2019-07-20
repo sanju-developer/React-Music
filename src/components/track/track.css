@@ -1,0 +1,10 @@
+.track-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.track-info{
+    display: inline-block;
+    margin: 10px;
+}

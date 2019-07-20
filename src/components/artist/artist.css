@@ -1,0 +1,9 @@
+.artist-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.artist-profile-container{
+    margin: 20px 0px;
+}

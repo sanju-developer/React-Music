@@ -31,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* by me */
+.btn{
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  margin: 10px;
+}
+.danger{
+  background: red;
+}
+.primary{
+  background: powderblue;
+}
+.success{
+  background: goldenrod;
+}
