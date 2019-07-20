@@ -4,7 +4,7 @@ import Header from './components/header/header';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import Entry from './components/entry/entry';
-import { HashHistory, BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Reminder from './components/reminder/reminder';
 import reminderReducer from './redux/reducers/reminder_reducer';
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <Router>
+        <Router basename="/">
           <Route path="/" exact render={() => ( <Redirect to='/entry'/> ) }/>
           <Route path='/entry' component={Entry} />
           <Route path='/entry/reminder' component={Reminder} />
