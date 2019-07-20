@@ -2,7 +2,7 @@
   "name": "learn-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/sanju-developer/React-Music",
+  "homepage":"https://sanju-developer.github.io/React-Music/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
