@@ -14,7 +14,7 @@ class Searchbar extends Component {
     }
 
     onHitEnter(e) {
-        if (e.key == 'Enter') {
+        if (e.key === 'Enter') {
             this.runQuerryFun();
         }
     }

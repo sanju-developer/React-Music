@@ -15,6 +15,9 @@ class Entry extends React.Component{
         this.props.history.push('/entry/music');
     }
 
+    goToAgeMeter(){
+        this.props.history.push('/entry/agemeter');
+    }
 
     render(){
         return(
@@ -24,6 +27,9 @@ class Entry extends React.Component{
                 </button>
                 <button onClick={() => this.goToMusic()} className="btn primary music">
                     Music
+                </button>
+                <button onClick={() => this.goToAgeMeter()} className="btn primary music">
+                    AgeMeter
                 </button>
             </div>
         )

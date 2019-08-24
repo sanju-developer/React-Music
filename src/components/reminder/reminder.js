@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import './reminder.css';
+import { bindActionCreators } from 'redux';
 
 class Reminder extends React.Component {
     constructor(props) {
@@ -56,7 +57,7 @@ class Reminder extends React.Component {
 const mapStateToProps = (state) => {
     console.log('store data', state);
     return {
-        reminder: state
+        reminder: state.reminderReducer
     }
 }
 
@@ -64,7 +65,8 @@ const mapDispatchToProps = (dispatch) => {
     return {
         addReminder: (text) => dispatch({ type: 'SET_REMINDER', reminderText: text }),
         deleteReminder: (id) => dispatch({ type:'DELETE_ONE_REMINDER', id: id }),    
-        clearReminder: () => dispatch ({ type:'CLEAR_REMINDER' })
+        clearReminder: () => dispatch ({ type:'CLEAR_REMINDER' }),
+        // actions: bindActionCreators([action1, action2, action3], dispatch)
     }
 }
 

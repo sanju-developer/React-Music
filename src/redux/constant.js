@@ -1,3 +1,6 @@
 export const SET_REMINDER = 'SET_REMINDER';
 export const DELETE_ONE_REMINDER = 'DELETE_ONE_REMINDER';
 export const CLEAR_REMINDER = 'CLEAR_REMINDER';
+export const AGE_UP = 'AGE_UP';
+export const AGE_DOWN = 'AGE_DOWN';
+export const UPDATE_ONE_REMINDER = 'UPDATE_ONE_REMINDER';
